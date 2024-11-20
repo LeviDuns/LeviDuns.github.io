@@ -1,0 +1,52 @@
+STEP 1:
+12:43 PM 11/18/2024 Navigate to digital ocean and create a digital ocean account
+
+STEP 2:
+12:44 PM 11/18/2024 Navigate to create droplet
+
+12:46 PM 11/18/2024 CPU options = regular
+
+12:47 PM 11/18/2024 Choose the cheapest payment option
+
+12:47 PM 11/18/2024 authentication option- choose password and create password "TulsaTime@1865edu
+
+12:48 PM 11/18/2024 Change hostname to wire guard project
+
+STEP 3:
+12:48 PM 11/18/2024 Copy IP address in "first-project"dashboard
+
+12:49 PM 11/18/2024 type command ssh root{copied ip address}
+
+12:50 PM 11/18/2024 Enter password created
+
+12:50 PM 11/18/2024 Run the command sudu apt update and sudo apt upgrade
+
+1:00 PM 11/18/2024 run the command sudo apt install docker.io * forgotten before * 
+
+STEP 4:
+12:51 PM 11/18/2024 run the command mkdir -p ~/wireguard/ and mkdir -p ~/wireguard/config/
+
+12:53 PM 11/18/2024 run the command nano ~/wiregaurd/
+
+12:56 PM 11/18/2024copy the template from the website "https://thematrix.dev/setup-wireguard-vpn-server-with-docker/"
+
+12:57 PM 11/18/2024 Change "TZ" to Etc/UTC
+
+STEP 5: Part A (Phone)
+12:58 PM 11/18/2024 run the command cd ~/wireguard/
+
+1:01 PM 11/18/2024 run the command docker-compose up -d
+
+1:02 PM 11/18/2024 run the command dock-compose logs -f wiregaurd to get the QR code
+
+1:11 PM 11/18/2024 Scan QR code with the wireguard app on your phone to turn on VPN
+
+Step 5: Part B (Computer)
+1:26 PM 11/20/2024 Find the configuration file: ls /wireguard/config 
+
+1:27 PM 11/20/2024 Copy the .conf file to your laptop
+
+1:27 PM 11/20/2024 Import the file into the Wireguard app or CLI
+
+1:27 PM 11/20/2024 Follow the same steps as mobile to confirm functionality using IPLeak.net
+
