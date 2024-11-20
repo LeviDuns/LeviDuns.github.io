@@ -1,0 +1,18 @@
+Pulling a pre-build image
+
+Run the following commands
+Sudo apt update
+Sudo apt install docker.io
+Sudo systemctl start docker
+
+
+Pulling a pre-build image
+
+Use the command "Sudo docker pull nginx"
+
+
+Run the Container
+
+Use the command "Sudo docker run -d -p 80:80 nginx"
+Open web browser and type in "Localhost:80"
+
