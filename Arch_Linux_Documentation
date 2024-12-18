@@ -1,0 +1,41 @@
+Arch Linux Documentation
+
+8:30 PM 10/25/2024 Going to Broadcom Support portal for VMWare Installation
+
+8:55 PM 10/25/2024 Start download for VMWare Workstation Pro
+
+8:57 PM 10/25/2024 Going to Arch Linux Wiki for the download
+
+8:58 PM 10/25/2024 Pinging adectra.com
+
+8:59 PM 10/25/2024 Start download for Arch Linux ISO
+
+9:10 PM 10/25/2024 Open VMWare Setup that was downloaded
+
+9:10 PM 10/25/2024 Once completed, I opened the newly created desktop icon, once opened hit create a new virtual machine
+
+9:12 PM 10/25/2024 Import installed Iso
+
+9:15 PM 10/25/2024 Select Linux for the "Guest Operating System", then click the drop-down and select "Other Linux 6.x kernel 64-bit"
+
+9:23 PM 10/25/2024 Power On Virtual Box
+
+9:25 PM 10/25/2024 When presented with the screen that says arch Linux press space on the top option
+
+9:26 PM 10/25/2024 Once it is done loading and you are able to type, type "archinstall"
+
+9:27 PM 10/25/2024 Select mirror, then mirror region, then scroll down the United States and select it
+
+12:57 PM 10/27/2024 Select Disk configuration, select Partitioning, select use a best-effort default partition layout, select VMWare, select btrfs, select yes, then select use compression, once all steps are done hit back
+
+1:02 PM 10/27/2024 Select Disk Encryption, select encryption type, Select LUKS, Enter a Password, select partitions and choose a partition, then hit back
+
+1:05 PM 10/27/2024 select root password and set a password
+
+1:06 PM 10/27/2024 Select Profile, Select type and choose Desktop, select greeter and choose gdm then hit back.
+
+1:08 PM 10/27/2024 Select time zone and choose US/Central
+
+1:32 PM 10/27/2024 Hit Install
+
+1:32 PM 10/27/2024 when you are presented with the screen that says, "Would you like to chroot into the newly created installation and perform post-installation configuration?" select NO
